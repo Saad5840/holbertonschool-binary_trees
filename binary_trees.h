@@ -39,6 +39,7 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 
 int binary_tree_is_root(const binary_tree_t *node);
 
+void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 
 /* Provided print function (only for testing) */
 void binary_tree_print(const binary_tree_t *);
