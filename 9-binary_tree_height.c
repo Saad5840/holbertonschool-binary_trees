@@ -6,7 +6,7 @@
  *
  * Return: Height of the tree, or 0 if tree is NULL
  *
- * Description: Height is the number of edges from the node to the deepest leaf.
+ * Description: Height is the number of edges from the node to the deepest leaf
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
