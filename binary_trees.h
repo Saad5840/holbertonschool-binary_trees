@@ -51,6 +51,8 @@ size_t binary_tree_depth(const binary_tree_t *tree);
 
 size_t binary_tree_size(const binary_tree_t *tree);
 
+size_t binary_tree_leaves(const binary_tree_t *tree);
+
 /* Provided print function (only for testing) */
 void binary_tree_print(const binary_tree_t *);
 
